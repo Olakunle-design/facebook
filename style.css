@@ -1,179 +1,59 @@
 body{
     font-family: calibri;
 }
-#first{
+#house{
     top: 0;
     left: 0;
-    background-color: darkblue;
+    width: 45%;
+    height: 90%;
+    background-image: url(image/bg.jpg);
     position: fixed;
-    width: 100%;
+    background-size: cover;
+}
+#room{
+    width: 400px;
     height: 100%;
+    margin-left: 140%;
+    margin-top: 12%;
 }
-#second{
+.con{
+    position: absolute;
+    height: 20px;
+    width: 53%;
+    margin-top: 11px;
+    margin-left: 2px;
     background-color: whitesmoke;
-    position: fixed;
-    top: 15%;
-    left: 0;
-    height: 85%;
-    width: 50%;
-}
-#third{
-    width: 50%;
-    top: 0;
-    left: 0;
-    height: 15%;
-    position: fixed;
-}
-#fourth{
-    background-color: whitesmoke;
-    position: fixed;
-    width: 50%;
-    top: 15%;
-    left: 50%;
-    height: 85%;
-}
-#fifth{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 50%;
-    margin-left: 55%;
-}
-.good{
-    color: white;
-    font-weight: bold;
-    margin-left: 20%;
-}
-.yes{
-    margin-left: 5%;
-    color: white;
-    font-size: 11px;
-}
-.goo{
-    margin-left: 120px;
-    color: white;
-    font-size: 11px;
-}
-.cool{
-    margin-left: 5%;
-}
-.nice{
-    margin-left: 9px;
-}
-.no{
-    margin-left: 1%;
-    background-color: rgb(49, 49, 202);
     border: 0;
-    color: white;
+    padding: 5px;
 }
-.great{
-    margin-left: 33%;
-    margin-top: 3px;
+.btn{
+    padding: 8px;
+    width: 80%;
+    background-color: red;
     color: white;
+    margin-top: 6px;
+    border: 0;
+}
+.ion{
+    position: absolute;
+    height: 20px;
+    width: 53%;
+    margin-top: 12px;
+    margin-left: 2px;
+    background-color: whitesmoke;
+    border: 0;
+    padding: 5px;
 }
 .logo{
-    margin-top: 3%;
-    margin-left: 13%;
+    width: -80%;
+    margin-top: -50%;
 }
-.text{
-    margin-left: 20%;
-    margin-top: 4%;
+.elec{
+    color: brown;
 }
-.txt{
-    font-size: 20px;
-    color: rgb(87, 87, 186);
+.forn{
+    color: brown;
 }
-.loginform{
-    margin-left: 10%;
-    margin-top: 15px;
-}
-.form{
-    padding: 7px;
-    width: 35%;
-    border-radius: 4px;
-    border: none;
-    box-shadow: 1px 1px 1px  black;
-}
-.from{
-    padding: 7px;
-    width: 35%;
-    border-radius: 4px;
-    border: none;
-    box-shadow: 1px 1px 1px  black;
-}
-.formm{
-    padding: 7px;
-    width: 74%;
-    margin-top: 7px;
-    border-radius: 4px;
-    border: none;
-    box-shadow: 1px 1px 1px  black;
-}
-.froom{
-    padding: 7px;
-    width: 74%;
-    margin-top: 7px;
-    border-radius: 4px;
-    border: none;
-    box-shadow: 1px 1px 1px  black;
-}
-.acc{
-    margin-left: 10%;
-    margin-top: 3px;
-}
-.be{
-    margin-left: 10%;
-    margin-top: -3%;
-}
-.birth{
-    margin-left: 10%;
-    margin-top: 15px;
-}
-.days{
-    margin-left: 10%;
-    margin-top: -40px;
-    padding: 6px;
-}
-.months{
-    margin-left: -4px;
-    padding: 6px;
-}
-.year{
-    margin-left: -4px;
-    padding: 6px; 
-}
-.female{
-    margin-left: 11%;
-}
-.male{
-    margin-left: 20px;
-}
-.texts{
-    font-size: 12px;
-}
-.cooool{
-    color: rgb(58, 58, 118);
-}
-.up{
-    padding: 5px;
-    margin-left: 10%;
-    width: 200px;
-    background-color: rgb(27, 177, 27);
-    color: white;
-    border-radius: 4px;
-    font-size: 20px;
-    border: none;
-    margin-top: -15px;
-}
-.br{
-    margin-left: 10%;
-    margin-top: 20px;
-    font-size: 12px;
-}
-.page{
-    color: rgb(41, 41, 161);
-}
-.burn{
-    width: 60%;
-    margin-left: 10%;
+.join{
+    color: brown;
 }
